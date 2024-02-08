@@ -1,12 +1,11 @@
 import Page from "@/components/Page";
 import Mainbar from "@/components/Mainbar/Mainbar";
 import Sidebar from "@/components/Sidebar";
-import ModalLang from "@/components/ModalLang";
 
 
 
 
-export default function Home() {
+export default function page() {
 
     return (
         <main className="p-6 lg:p-24" id="app">
@@ -26,7 +25,6 @@ export default function Home() {
                     Download PDF
                 </a>
             </div>
-            <ModalLang />
         </main>
 
     );
