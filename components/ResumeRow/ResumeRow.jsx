@@ -7,8 +7,8 @@ export default function ResumeRow({
     url = null,
     isWork = true
 }) {
-    let detailJSX = detail.map(function (single) {
-        return (<li>{single}</li>)
+    let detailJSX = detail.map(function (single, index) {
+        return (<li key={index}>{single}</li>)
     })
     return (
         <div>
