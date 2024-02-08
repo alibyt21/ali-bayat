@@ -3,7 +3,7 @@ import Skill from "@/components/Skill";
 
 export default function Sidebar() {
     return (
-        <div className="w-[400px] flex flex-col gap-2 bg-gray-100 rounded-2xl h-full p-4">
+        <div className="lg:w-[400px] w-full flex flex-col gap-2 bg-gray-100 rounded-2xl h-full p-4">
             <div>
                 <img src="/pic.jpg" className="flex justify-center m-auto rounded-lg w-[200px]" alt="" />
             </div>

@@ -14,7 +14,7 @@ export default function ResumeRow({
         <div>
             <div className="flex gap-4 justify-between items-center font-bold text-blue-900">
                 <div className="relative">
-                    <span className="whitespace-nowrap">{title}</span>
+                    <span className="lg:whitespace-nowrap">{title}</span>
                     {
                         isBullet
                             ?
@@ -43,7 +43,7 @@ export default function ResumeRow({
                 location
                     ?
                     <div className="px-2 flex items-center gap-4 text-orange-600 font-semibold ">
-                        <span className="whitespace-nowrap">
+                        <span className="lg:whitespace-nowrap">
                             {location}
                         </span>
                         <div className="w-full h-[1px] border border-dashed border-orange-200"></div>

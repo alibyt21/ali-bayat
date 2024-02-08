@@ -16,7 +16,7 @@ export default function Mainbar() {
                     <div className="w-full flex flex-col gap-4">
                         <ResumeRow title="Front-end Developer" time="2023 - now" location="Iranian Information Technology Co, Tehran, Iran" url="iritco.ir/en" detail={["Membership of 13-member programming team", "Mid-level frontend developer", "Redesigning UI/UX and migrating an old Python(django) application to React-RESTfull API"]} />
                         <ResumeRow title="Full-stack Developer" time="2021 - 2023" location="University of Tehran, Tehran, Iran" url="ut.ac.ir/en" detail={["Learning Javascript - React - Nextjs - NodeJs - Express - Tailwind", "Designing and programming a platform for creating simple websites based on instagram pages (backend: PHP-MYSQL, frontend: React-Nextjs | unlaunched)", "Creating multiple Wordpress websites", "Maintenance of old websites"]} />
-                        <ResumeRow title="Founder - CEO" time="2019 - 2021" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Learning PHP - Git - Bootstrap", "Designing and Programming a Social Media Marketing Application (backend: PHP-MYSQL, frontend: JavaScript-HTML-CSS - An example: migratbot.degardc.com)", "Ads copywriter", "Developing Wordpress websites for our clients (Some examples can be found in degardc.com/webdesign-portfolio)", "Creating multiple Wordpress plugin (video player - quiz builder - SERP crawler - ...)", "Leadership of a Four-Member Team"]} />
+                        <ResumeRow title="Founder - CEO" time="2019 - 2021" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Learning PHP - Git - Bootstrap", "Designing and Programming a Social Media Marketing Application (backend: PHP-MYSQL, frontend: jQuery-HTML-CSS - An example: migratbot.degardc.com)", "Ads copywriter", "Developing Wordpress websites for our clients (degardc.com/webdesign-portfolio)", "Creating multiple Wordpress plugin (video player - quiz builder - SERP crawler - ...)", "Leadership of a Four-Member Team"]} />
                         <ResumeRow title="Founder - CEO" time="2017 - 2019" location="Charkhdande Co, Tehran, Iran" url="charkhdande.com" detail={["Managing and communication with consumers", "Learning Website Design with WordPress", "Learning HTML & CSS", "Learning SEO Algorithms and Google Tools", "Learning Email Marketing"]} />
                     </div>
                 </div>
@@ -63,11 +63,11 @@ export default function Mainbar() {
                     <div className="flex gap-3">
                         <div className="h-auto w-[5px] bg-blue-400"></div>
                         <div className="w-full flex flex-col gap-2">
-                            <ResumeRow title="Learning new things" time="" location="" detail={[]} isBullet={false} />
+                            <ResumeRow title="Learning" time="" location="" detail={[]} isBullet={false} />
                             <ResumeRow title="Exploring nature" time="" location="" detail={[]} isBullet={false} />
                             <ResumeRow title="Reading books" time="" location="" detail={[]} isBullet={false} />
                             <ResumeRow title="Playing guitar" time="" location="" detail={[]} isBullet={false} />
-                            <ResumeRow title="Doing exercise" time="" location="" detail={[]} isBullet={false} />
+                            <ResumeRow title="Exercise" time="" location="" detail={[]} isBullet={false} />
                         </div>
                     </div>
                 </div>

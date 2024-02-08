@@ -5,9 +5,9 @@ import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="p-6 lg:p-24">
             <Page>
-                <div className="flex gap-5">
+                <div className="flex flex-col-reverse lg:flex-row gap-5">
                     <Mainbar />
                     <Sidebar />
                 </div>
