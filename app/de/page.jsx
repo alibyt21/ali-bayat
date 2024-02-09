@@ -31,7 +31,7 @@ export default function page() {
             </div>
             {/* Education */}
             <div className="flex flex-col gap-4">
-              <ResumeHeading title="Schul-Ausbildung">
+              <ResumeHeading title="Schul und Ausbildungen">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
                 </svg>
@@ -48,7 +48,7 @@ export default function page() {
             <div className="flex w-full gap-6">
               {/* Languages */}
               <div className="w-full flex flex-col gap-4">
-                <ResumeHeading title="Languages">
+                <ResumeHeading title="Sprachen">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-10 h-10">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
                   </svg>
@@ -71,11 +71,11 @@ export default function page() {
                 <div className="flex gap-3">
                   <div className="h-auto w-[5px] bg-blue-400"></div>
                   <div className="w-full flex flex-col gap-2">
-                    <ResumeRow title="Lernen" time="" location="" detail={[]} isBullet={false} />
-                    <ResumeRow title="Die Natur erkunden" time="" location="" detail={[]} isBullet={false} />
-                    <ResumeRow title="Bücher lesen" time="" location="" detail={[]} isBullet={false} />
+                    <ResumeRow title="Wandern" time="" location="" detail={[]} isBullet={false} />
+                    <ResumeRow title="Lesen" time="" location="" detail={[]} isBullet={false} />
                     <ResumeRow title="Gitarre spielen" time="" location="" detail={[]} isBullet={false} />
-                    <ResumeRow title="Übung" time="" location="" detail={[]} isBullet={false} />
+                    <ResumeRow title="Filme schauen" time="" location="" detail={[]} isBullet={false} />
+                    <ResumeRow title="Zelten" time="" location="" detail={[]} isBullet={false} />
                   </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@ export default function page() {
             </div>
             <div className="w-full h-[2px] bg-orange-500"></div>
             {/* CAPABILITY */}
-            <SideTitle title="Programming Capability" />
+            <SideTitle title="Programmierungsfähigkeiten" />
             <div className="flex flex-col gap-1">
               <Skill title="HTML" score={100} />
               <Skill title="CSS" score={95} />
@@ -155,7 +155,7 @@ export default function page() {
             </div>
             <div className="w-full h-[2px] bg-orange-500"></div>
 
-            <SideTitle title="Other Capability" />
+            <SideTitle title="Fähigkeiten" />
             <div>
               <span className="font-semibold">Softwarearchitektur:</span> OOP, SOLID, MVC, Microservice, REST API, ERD
             </div>
@@ -166,7 +166,7 @@ export default function page() {
               <span className="font-semibold">Marketing:</span> SEO Algorithmen, Google Ads, Google Search Console, Goolge Analytics
             </div>
             <div className="w-full h-[2px] bg-orange-500"></div>
-            <SideTitle title="Personallity" />
+            <SideTitle title="Persönlichkeit" />
             <div className="flex gap-1 flex-wrap font-semibold">
               <span className="text-white bg-blue-500 px-2 rounded-md">Teamarbeit</span>
               <span className="text-white bg-blue-500 px-2 rounded-md">Zuverlässig</span>

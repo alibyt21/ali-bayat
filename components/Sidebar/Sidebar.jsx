@@ -88,7 +88,7 @@ export default function Sidebar() {
                 <span className="font-semibold">Marketing:</span> SEO Algorithms, Google Ads, Google Search Console, Goolge Analytics
             </div>
             <div className="w-full h-[2px] bg-orange-500"></div>
-            <SideTitle title="Personallity" />
+            <SideTitle title="Personality" />
             <div className="flex gap-1 flex-wrap font-semibold">
                 <span className="text-white bg-blue-500 px-2 rounded-md">Teamwork</span>
                 <span className="text-white bg-blue-500 px-2 rounded-md">Reliable</span>
