@@ -14,6 +14,7 @@ export default function Mainbar() {
                 <div className="flex gap-4">
                     <div className="h-auto w-[5px] bg-blue-400"></div>
                     <div className="w-full flex flex-col gap-4">
+                        <ResumeRow title="Full-stack Developer" time="2023 - now" location="Behtarinfa Co, Tehran, Iran" url="behtarinfa.ir" detail={["Designing and programming a platform for comparing product and services based on reviews (backend: NodeJS-MYSQL, frontend: React-Nextjs | in progress)"]} />
                         <ResumeRow title="Front-end Developer" time="2023 - now" location="Iranian Information Technology Co, Tehran, Iran" url="iritco.ir/en" detail={["Membership of 13-member programming team", "Mid-level frontend developer", "Redesigning UI/UX and migrating an old Python(django) application to React-RESTfull API"]} />
                         <ResumeRow title="Full-stack Developer" time="2021 - 2023" location="University of Tehran, Tehran, Iran" url="ut.ac.ir/en" detail={["Learning Javascript - React - Nextjs - NodeJs - Express - Tailwind", "Designing and programming a platform for creating simple websites based on instagram pages (backend: PHP-MYSQL, frontend: React-Nextjs | unlaunched)", "Creating multiple Wordpress websites", "Maintenance of old websites"]} />
                         <ResumeRow title="Founder - CEO" time="2019 - 2021" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Learning PHP - Git - Bootstrap", "Designing and Programming a Social Media Marketing Application (backend: PHP-MYSQL, frontend: jQuery-HTML-CSS - An example: migratbot.degardc.com)", "Ads copywriter", "Developing Wordpress websites for our clients (degardc.com/webdesign-portfolio)", "Creating multiple Wordpress plugin (video player - quiz builder - SERP crawler - ...)", "Leadership of a Four-Member Team"]} />
@@ -32,8 +33,8 @@ export default function Mainbar() {
                     <div className="h-auto w-[5px] bg-blue-400"></div>
                     <div className="w-full flex flex-col gap-4">
                         <ResumeRow title="Master - Information Technology" time="2018 - 2020" location="Tarbiat Modares University, Tehran, Iran" isWork={false} url="modares.ac.ir/en" detail={[]} />
-                        <ResumeRow title="Bachelor - Mining Engineering" time="2012 - 2017" location="University of Tehran, Tehran, Iran" isWork={false} url="ut.ac.ir/en" detail={[]} />
-                        <ResumeRow title="High school diploma - Mathematics" time="2008 - 2012" location="Mollasadra School, Alborz, Iran" isWork={false} detail={[]} />
+                        {/* <ResumeRow title="Bachelor - Mining Engineering" time="2012 - 2017" location="University of Tehran, Tehran, Iran" isWork={false} url="ut.ac.ir/en" detail={[]} />
+                        <ResumeRow title="High school diploma - Mathematics" time="2008 - 2012" location="Mollasadra School, Alborz, Iran" isWork={false} detail={[]} /> */}
                     </div>
                 </div>
             </div>

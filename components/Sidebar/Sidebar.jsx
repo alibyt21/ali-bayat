@@ -62,14 +62,14 @@ export default function Sidebar() {
                 <Skill title="Tailwind" score={95} />
                 <Skill title="Bootstrap" score={100} />
                 <Skill title="Javascript" score={95} />
-                <Skill title="React" score={85} />
-                <Skill title="Nodejs" score={75} />
-                <Skill title="Express" score={80} />
+                <Skill title="React" score={90} />
+                <Skill title="Nodejs" score={80} />
+                <Skill title="Express" score={85} />
                 <Skill title="Nextjs" score={70} />
                 <Skill title="PHP" score={90} />
                 <Skill title="Wordpress" score={95} />
-                <Skill title="SQL" score={60} />
-                <Skill title="Git" score={70} />
+                <Skill title="SQL" score={65} />
+                <Skill title="Git" score={75} />
                 <Skill title="Linux" score={50} />
                 <Skill title="Python" score={45} />
                 <Skill title="R" score={40} />
@@ -90,14 +90,14 @@ export default function Sidebar() {
             <div className="w-full h-[2px] bg-orange-500"></div>
             <SideTitle title="Personality" />
             <div className="flex gap-1 flex-wrap font-semibold">
-                <span className="text-white bg-blue-500 px-2 rounded-md">Teamwork</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Reliable</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Creative</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Ambitious</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Patience</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Flexible</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Passionate</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Adventurer</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Teamwork</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Reliable</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Creative</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Ambitious</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Patience</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Flexible</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Passionate</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Adventurer</span>
             </div>
         </div>
     )

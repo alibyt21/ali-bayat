@@ -15,7 +15,7 @@ export default function page() {
                     <Sidebar />
                 </div>
             </Page>
-            <div className="flex w-full justify-center items-center mt-6">
+            {/* <div className="flex w-full justify-center items-center mt-6">
                 <a
                     href="/alibayat-en.pdf"
                     target="_blank"
@@ -24,7 +24,7 @@ export default function page() {
                 >
                     Download PDF
                 </a>
-            </div>
+            </div> */}
         </main>
 
     );
