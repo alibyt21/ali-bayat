@@ -16,7 +16,7 @@ export default function Home() {
                     <Sidebar />
                 </div>
             </Page>
-            {/* <div className="flex w-full justify-center items-center mt-6">
+            <div className="flex w-full justify-center items-center mt-6">
                 <a
                     href="/alibayat-en.pdf"
                     target="_blank"
@@ -25,7 +25,7 @@ export default function Home() {
                 >
                     Download PDF
                 </a>
-            </div> */}
+            </div>
             <ModalLang />
         </main>
 

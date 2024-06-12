@@ -180,7 +180,7 @@ export default function page() {
           </div>
         </div>
       </Page>
-      {/* <div className="flex w-full justify-center items-center mt-6">
+      <div className="flex w-full justify-center items-center mt-6">
         <a
           href="/alibayat-de.pdf"
           target="_blank"
@@ -189,7 +189,7 @@ export default function page() {
         >
           PDF Herunterladen
         </a>
-      </div> */}
+      </div>
     </main>
   )
 }
