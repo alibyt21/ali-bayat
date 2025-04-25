@@ -8,7 +8,7 @@ import Sidebar from "@/components/Sidebar";
 export default function page() {
 
     return (
-        <main className="p-6 lg:p-24" id="app">
+        <main className="p-6 lg:p-24 text-sm" id="app">
             <Page>
                 <div className="flex flex-col-reverse lg:flex-row gap-5">
                     <Mainbar />

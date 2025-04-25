@@ -14,10 +14,11 @@ export default function Mainbar() {
                 <div className="flex gap-4">
                     <div className="h-auto w-[5px] bg-blue-400"></div>
                     <div className="w-full flex flex-col gap-4">
-                        <ResumeRow title="Front-end Developer" time="2023 - now" location="Iranian Information Technology Co, Tehran, Iran" url="iritco.ir/en" detail={["Membership of 13-member programming team", "Mid-level frontend developer", "Redesigning UI/UX and migrating an old Python(django) application to React-RESTfull API"]} />
-                        <ResumeRow title="Full-stack Developer" time="2021 - 2023" location="University of Tehran, Tehran, Iran" url="ut.ac.ir/en" detail={["Learning Javascript - React - Nextjs - NodeJs - Express - Tailwind", "Designing and programming a platform for creating simple websites based on instagram pages (backend: PHP-MYSQL, frontend: React-Nextjs | unlaunched)", "Creating multiple Wordpress websites", "Maintenance of old websites"]} />
-                        <ResumeRow title="Founder - CEO" time="2019 - 2021" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Learning PHP - Git - Bootstrap", "Designing and Programming a Social Media Marketing Application (backend: PHP-MYSQL, frontend: jQuery-HTML-CSS - An example: migratbot.degardc.com)", "Ads copywriter", "Developing Wordpress websites for our clients (degardc.com/webdesign-portfolio)", "Creating multiple Wordpress plugin (video player - quiz builder - SERP crawler - ...)", "Leadership of a Four-Member Team"]} />
-                        <ResumeRow title="Founder - CEO" time="2017 - 2019" location="Charkhdande Co, Tehran, Iran" url="charkhdande.com" detail={["Managing and communication with consumers", "Learning Website Design with WordPress", "Learning HTML & CSS", "Learning SEO Algorithms and Google Tools", "Learning Email Marketing"]} />
+                        <ResumeRow title="Back-end Developer" time="2024 - now" location="Behtino Co, Tehran, Iran (self employed)" url="localhost:3000" detail={["Leading a 2-member team", "Designing a platform for rating businesses based on customer reviews (Backend: Node.js, Express, Redis, PostgreSQL, RabbitMQ – Frontend: Next.js, Tailwind CSS, OpenLayers Map)"]} />
+                        <ResumeRow title="Front-end Developer" time="2022 - 2024" location="Iranian Information Technology Co, Tehran, Iran" url="iritco.ir/en" detail={["Led a 4-member frontend team", "Redesigned the UI/UX and migrated a legacy Python (Django) application (Master Data Management) to a modern React SPA", "Designed multiple SSO login pages for national clients such as saorg.ir(سازمان ملی امور دانشجویان), tums.ac.ir(دانشگاه علوم پزشکی تهران), qmb.ir(بانک قرض الحسنه مهر ایران),...", "Served as frontend team lead for the implementation of codesehat.ir (سامانه ملی استعلام کد صحت مدارک تحصیلی)"]} />
+                        <ResumeRow title="Full-stack Developer" time="2019 - 2022" location="University of Tehran, Tehran, Iran" url="ut.ac.ir/en" detail={["Self-learning JavaScript, React, Next.js, Node.js, Express, and Tailwind CSS", "Designed and developed a platform for creating simple websites based on Instagram pages (Backend: PHP, MySQL – Frontend: React, Next.js | Unlaunched)", "Designed and developed a full-featured job assessment tool with PDF generation (Backend: Node.js, MySQL – Frontend: React | panel.jobonet.ir)", "Built multiple websites using WordPress", "Maintained and updated legacy websites"]} />
+                        <ResumeRow title="Founder - CEO" time="2017 - 2019" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Self-learning PHP, Git, and Bootstrap", "Created multiple SEO training courses (degardc.com/academy/seo-fundamental)", "Designed and developed a social media marketing application (Backend: PHP, MySQL – Frontend: jQuery, HTML, CSS | Example: migratbot.degardc.com)", "Wrote ad copy for various digital campaigns", "Developed WordPress websites for clients (degardc.com/webdesign-portfolio)", "Created multiple custom WordPress plugins (video player, quiz builder, SERP crawler, etc.)", "Led a 4-member team"]} />
+                        <ResumeRow title="Founder - CEO" time="2015 - 2017" location="Charkhdande Co, Tehran, Iran" url="charkhdande.com" detail={["Managed communication with clients and consumers", "Learned website design using WordPress", "Gained foundational knowledge of HTML and CSS", "Studied SEO algorithms and Google tools (e.g. Search Console, Analytics)", "Learned the fundamentals of email marketing"]} />
                     </div>
                 </div>
             </div>
@@ -33,7 +34,7 @@ export default function Mainbar() {
                     <div className="w-full flex flex-col gap-4">
                         <ResumeRow title="Master - Information Technology" time="2018 - 2020" location="Tarbiat Modares University, Tehran, Iran" isWork={false} url="modares.ac.ir/en" detail={[]} />
                         <ResumeRow title="Bachelor - Mining Engineering" time="2012 - 2017" location="University of Tehran, Tehran, Iran" isWork={false} url="ut.ac.ir/en" detail={[]} />
-                        <ResumeRow title="High school diploma - Mathematics" time="2008 - 2012" location="Mollasadra School, Alborz, Iran" isWork={false} detail={[]} />
+                        {/* <ResumeRow title="High school diploma - Mathematics" time="2008 - 2012" location="Mollasadra School, Alborz, Iran" isWork={false} detail={[]} /> */}
                     </div>
                 </div>
             </div>
@@ -50,7 +51,7 @@ export default function Mainbar() {
                         <div className="w-full flex flex-col gap-2">
                             <ResumeRow title="Persian" time="" location="Native" detail={[]} isBullet={false} />
                             <ResumeRow title="English" time="" location="C1" detail={[]} isBullet={false} />
-                            <ResumeRow title="French" time="" location="A2" detail={[]} isBullet={false} />
+                            {/* <ResumeRow title="French" time="" location="A2" detail={[]} isBullet={false} /> */}
                         </div>
                     </div>
                 </div>
@@ -65,8 +66,8 @@ export default function Mainbar() {
                         <div className="w-full flex flex-col gap-2">
                             <ResumeRow title="Learning" time="" location="" detail={[]} isBullet={false} />
                             <ResumeRow title="Exploring nature" time="" location="" detail={[]} isBullet={false} />
-                            <ResumeRow title="Reading books" time="" location="" detail={[]} isBullet={false} />
-                            <ResumeRow title="Playing guitar" time="" location="" detail={[]} isBullet={false} />
+                            {/* <ResumeRow title="Reading books" time="" location="" detail={[]} isBullet={false} /> */}
+                            {/* <ResumeRow title="Playing guitar" time="" location="" detail={[]} isBullet={false} /> */}
                             <ResumeRow title="Exercise" time="" location="" detail={[]} isBullet={false} />
                         </div>
                     </div>

@@ -22,7 +22,7 @@ export default function Sidebar() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                 </svg>
                 <span>
-                    No. 98, Kamali St, Tehran, Iran
+                    Tehran, Iran
                 </span>
             </div>
             <div className="flex gap-2">
@@ -62,15 +62,18 @@ export default function Sidebar() {
                 <Skill title="Tailwind" score={95} />
                 <Skill title="Bootstrap" score={100} />
                 <Skill title="Javascript" score={95} />
-                <Skill title="React" score={85} />
+                <Skill title="Typescript" score={74} />
+                <Skill title="Nestjs" score={60} />
+                <Skill title="Docker" score={70} />
+                <Skill title="React" score={92} />
                 <Skill title="Nodejs" score={75} />
-                <Skill title="Express" score={80} />
-                <Skill title="Nextjs" score={70} />
+                <Skill title="Express" score={89} />
+                <Skill title="Nextjs" score={85} />
                 <Skill title="PHP" score={90} />
                 <Skill title="Wordpress" score={95} />
-                <Skill title="SQL" score={60} />
-                <Skill title="Git" score={70} />
-                <Skill title="Linux" score={50} />
+                <Skill title="SQL" score={68} />
+                <Skill title="Git" score={84} />
+                <Skill title="Linux" score={40} />
                 <Skill title="Python" score={45} />
                 <Skill title="R" score={40} />
                 {/* <Skill title="C++" score={40} /> */}
