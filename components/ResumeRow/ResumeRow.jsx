@@ -8,7 +8,7 @@ export default function ResumeRow({
     isWork = true
 }) {
     let detailJSX = detail.map(function (single, index) {
-        return (<li key={index}>{single}</li>)
+        return (<li className="text-[15.5px]" key={index}>{single}</li>)
     })
     return (
         <div>

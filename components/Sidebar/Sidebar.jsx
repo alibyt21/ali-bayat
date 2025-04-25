@@ -93,14 +93,14 @@ export default function Sidebar() {
             <div className="w-full h-[2px] bg-orange-500"></div>
             <SideTitle title="Personality" />
             <div className="flex gap-1 flex-wrap font-semibold">
-                <span className="text-white bg-blue-500 px-2 rounded-md">Teamwork</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Reliable</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Creative</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Ambitious</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Patience</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Flexible</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Passionate</span>
-                <span className="text-white bg-blue-500 px-2 rounded-md">Adventurer</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Teamwork</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Reliable</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Creative</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Ambitious</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Patience</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Flexible</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Passionate</span>
+                <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Adventurer</span>
             </div>
         </div>
     )

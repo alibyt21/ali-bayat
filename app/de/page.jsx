@@ -22,10 +22,11 @@ export default function page() {
               <div className="flex gap-4">
                 <div className="h-auto w-[5px] bg-blue-400"></div>
                 <div className="w-full flex flex-col gap-4">
-                  <ResumeRow title="Frontend-Entwickler" time="2023 - laufend" location="Iranian Information Technology Co, Tehran, Iran" url="iritco.ir/en" detail={["Mitgliedschaft in einem 13-köpfigen Programmiererteam", "Frontend-Entwickler auf mittlerem Level", "Neugestaltung der UI/UX und Migration einer alten Python (Django)-Anwendung auf React-RESTful API"]} />
-                  <ResumeRow title="Full-Stack-Entwickler" time="2021 - 2023" location="University of Tehran, Tehran, Iran" url="ut.ac.ir/en" detail={["Lernen von JavaScript, React, Next.js, Node.js, Express und Tailwind", "Entwurf und Programmierung einer Plattform zur Erstellung einfacher Websites basierend auf Instagram-Seiten (Backend: PHP-MySQL, Frontend: React-Next.js | nicht gestartet)", "Erstellung mehrerer Wordpress-Websites", "Wartung von alten Websites"]} />
-                  <ResumeRow title="Gründer - CEO" time="2019 - 2021" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Lernen von PHP, Git und Bootstrap", "Entwurf und Programmierung einer Social-Media-Marketing-Anwendung (Backend: PHP-MySQL, Frontend: jQuery-HTML-CSS - Beispiel: migratbot.degardc.com)", "Anzeigen-Texter", "Entwicklung von Wordpress-Websites für unsere Kunden (degardc.com/webdesign-portfolio)", "Erstellung mehrerer Wordpress-Plugins (Videoplayer, Quiz-Builder, SERP-Crawler, ...)", "Führung eines vierköpfigen Teams"]} />
-                  <ResumeRow title="Gründer - CEO" time="2017 - 2019" location="Charkhdande Co, Tehran, Iran" url="charkhdande.com" detail={["Verwaltung und Kommunikation mit Kunden", "Lernen des Website-Designs mit WordPress", "Lernen von HTML und CSS", "Lernen von SEO-Algorithmen und Google-Tools", "Lernen von E-Mail-Marketing"]} />
+                  <ResumeRow title="Backend-Entwickler" time="2024 - laufend" location="Behtino Co, Tehran, Iran" url="localhost:3000" detail={["Entwurf und Programmierung einer Plattform zum Vergleichen von Produkten und Dienstleistungen auf Basis von Bewertungen (Backend: NodeJS-MySQL, Frontend: React-Next.js | im gange)"]} />
+                  <ResumeRow title="Frontend-Entwickler" time="2022 - 2024" location="Iranian Information Technology Co, Tehran, Iran" url="iritco.ir/en" detail={["Mitgliedschaft in einem 13-köpfigen Programmiererteam", "Frontend-Entwickler auf mittlerem Level", "Neugestaltung der UI/UX und Migration einer alten Python (Django)-Anwendung auf React-RESTful API"]} />
+                  <ResumeRow title="Full-Stack-Entwickler" time="2019 - 2022" location="University of Tehran, Tehran, Iran" url="ut.ac.ir/en" detail={["Lernen von JavaScript, React, Next.js, Node.js, Express und Tailwind", "Entwurf und Programmierung einer Plattform zur Erstellung einfacher Websites basierend auf Instagram-Seiten (Backend: PHP-MySQL, Frontend: React-Next.js | nicht gestartet)", "Erstellung mehrerer Wordpress-Websites", "Wartung von alten Websites"]} />
+                  <ResumeRow title="Gründer - CEO" time="2017 - 2019" location="Degardc Co, Tehran, Iran" url="degardc.com" detail={["Lernen von PHP, Git und Bootstrap", "Entwurf und Programmierung einer Social-Media-Marketing-Anwendung (Backend: PHP-MySQL, Frontend: jQuery-HTML-CSS - Beispiel: migratbot.degardc.com)", "Anzeigen-Texter", "Entwicklung von Wordpress-Websites für unsere Kunden (degardc.com/webdesign-portfolio)", "Erstellung mehrerer Wordpress-Plugins (Videoplayer, Quiz-Builder, SERP-Crawler, ...)", "Führung eines vierköpfigen Teams"]} />
+                  <ResumeRow title="Gründer - CEO" time="2015 - 2017" location="Charkhdande Co, Tehran, Iran" url="charkhdande.com" detail={["Verwaltung und Kommunikation mit Kunden", "Lernen des Website-Designs mit WordPress", "Lernen von HTML und CSS", "Lernen von SEO-Algorithmen und Google-Tools", "Lernen von E-Mail-Marketing"]} />
                 </div>
               </div>
             </div>
@@ -40,8 +41,8 @@ export default function page() {
                 <div className="h-auto w-[5px] bg-blue-400"></div>
                 <div className="w-full flex flex-col gap-4">
                   <ResumeRow title="Master-Abschluss - Informationstechnologie" time="2018 - 2020" location="Tarbiat Modares University, Tehran, Iran" isWork={false} url="modares.ac.ir/en" detail={[]} />
-                  <ResumeRow title="Bachelor - Bergbauingenieurwesen" time="2012 - 2017" location="University of Tehran, Tehran, Iran" isWork={false} url="ut.ac.ir/en" detail={[]} />
-                  <ResumeRow title="Abitur - Mathematik" time="2008 - 2012" location="Mollasadra Schul, Alborz, Iran" isWork={false} detail={[]} />
+                  {/* <ResumeRow title="Bachelor - Bergbauingenieurwesen" time="2012 - 2017" location="University of Tehran, Tehran, Iran" isWork={false} url="ut.ac.ir/en" detail={[]} />
+                  <ResumeRow title="Abitur - Mathematik" time="2008 - 2012" location="Mollasadra Schul, Alborz, Iran" isWork={false} detail={[]} /> */}
                 </div>
               </div>
             </div>
@@ -100,7 +101,7 @@ export default function page() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
               </svg>
               <span>
-                Nr. 98, Kamali Straße, Teheran, Iran
+                Teheran, Iran
               </span>
             </div>
             <div className="flex gap-2">
@@ -168,13 +169,13 @@ export default function page() {
             <div className="w-full h-[2px] bg-orange-500"></div>
             <SideTitle title="Persönlichkeit" />
             <div className="flex gap-1 flex-wrap font-semibold">
-              <span className="text-white bg-blue-500 px-2 rounded-md">Teamarbeit</span>
-              <span className="text-white bg-blue-500 px-2 rounded-md">Zuverlässig</span>
-              <span className="text-white bg-blue-500 px-2 rounded-md">Kreativ</span>
-              <span className="text-white bg-blue-500 px-2 rounded-md">Ehrgeizig</span>
-              <span className="text-white bg-blue-500 px-2 rounded-md">Geduld</span>
-              <span className="text-white bg-blue-500 px-2 rounded-md">Flexibel</span>
-              <span className="text-white bg-blue-500 px-2 rounded-md">Abenteurer</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Teamarbeit</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Zuverlässig</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Kreativ</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Ehrgeizig</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Geduld</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Flexibel</span>
+              <span className="text-white bg-blue-500 px-2 rounded-md text-sm">Abenteurer</span>
             </div>
           </div>
         </div>
